@@ -1,0 +1,60 @@
+# Alacritty configuration file
+
+# Font configuration
+font:
+  normal:
+    family: JetBrainsMono Nerd Font
+    style: Regular
+  bold:
+    family: JetBrainsMono Nerd Font
+    style: Bold
+  italic:
+    family: JetBrainsMono Nerd Font
+    style: Italic
+  bold_italic:
+    family: JetBrainsMono Nerd Font
+    style: Bold Italic
+
+# Colorscheme configuration
+colors:
+  primary:
+    background: '0x191724'
+    foreground: '0xebd0c2'
+
+  # Normal colors
+  normal:
+    black: '0x191724'
+    red: '0xe47171'
+    green: '0xb4be7a'
+    yellow: '0xd8a657'
+    blue: '0x84a0c6'
+    magenta: '0xa189a1'
+    cyan: '0x7ebebc'
+    white: '0xffffff'
+
+  # Bright colors
+  bright:
+    black: '0x7d8b8f'
+    red: '0xff3333'
+    green: '0xc2d94c'
+    yellow: '0xffd23e'
+    blue: '0x94bff3'
+    magenta: '0xa189a1'
+    cyan: '0x9aedf3'
+    white: '0xffffff'
+
+# Mouse configuration for scrolling
+mouse:
+  # Enable mouse support
+  # Enable different mouse modes. Default is "default".
+  # Possible values: default, passthrough, application
+  # For scrolling to work, it's important to set the mode to "default".
+  mode: default
+
+window:
+  dimensions:
+    columns: 100 # Adjust this value as per your preference
+    lines: 30 # Adjust this value as per your preference
+
+# Any other additional configurations can be added here
+
